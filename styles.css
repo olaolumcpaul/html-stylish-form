@@ -1,0 +1,84 @@
+body {
+  font-family: roboto;
+  background-image: linear-gradient(to right, #a980c7, rgb(86, 25, 143));
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  height: 150vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+
+input {
+  display: block;
+  gap: 50px;
+  font-size: medium;
+}
+
+h1 {
+  text-align: center;
+}
+#name {
+  width: 100%;
+  height: 30px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#email {
+  width: 100%;
+  height: 30px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#services {
+  width: 100%;
+  height: 30px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#budget {
+  width: 100%;
+  height: 30px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#message {
+  width: 100%;
+  height: 120px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+#submit {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-image: linear-gradient(to right, #c139c4, rgb(70, 171, 157));
+  color: white;
+  font-weight: bold;
+}

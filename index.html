@@ -6,8 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <title>Stylish Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <form>
+      <main>
+        <h1>Say Hello!</h1>
 
+        <br />
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="name"
+          min="2"
+          max="15"
+          required
+        />
+        <label for="Email">Email</label>
+        <input
+          type="text"
+          placeholder="Enter your email address"
+          id="email"
+          required
+        />
+        <label for="Needed Services">Needed Services</label>
+        <select name="Choose Services" id="services" required>
+          <option value="1">Choose Services</option>
+          <option value="2">Mobile Development</option>
+          <option value="3">UI/UX Design</option>
+          <option value="4">SEO</option>
+          <option value="5">Digital Marketing</option>
+        </select>
+        <label for="Budget">Budget</label>
+        <select name="Select Budget" id="budget" required>
+          <option value="1">Choose Budget</option>
+          <option value="2">Less than $500</option>
+          <option value="3">$500 - $1000</option>
+          <option value="4">$1000 - $5000</option>
+        </select>
+        <label for="Message">Message</label>
+        <textarea name="Message" id="message" cols="50" rows="10" required>
+          Your message here...</textarea
+        >
+        <br />
+        <input type="submit" id="submit" required />
+      </main>
+    </form>
   </body>
 </html>
